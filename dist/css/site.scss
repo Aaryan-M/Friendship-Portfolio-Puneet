@@ -12,13 +12,19 @@ $main-blue:       blue;
 $main-purple:     #5b40f7;     // Not Standard 
 
 // Other Variables
-$standard-font-size: 3.5vw;
-$small-font-size: 2.5vw;
 
-@media (min-width:1000px)
+@mixin standard-font-size
 {
-    $standard-font-size: 2.5vw;
-    $small-font-size: 1.5vw;
+    font-size: 3.5vw;
+
+    @media (min-width: 1000px) { font-size: 2.5vw; }
+}
+
+@mixin small-font-size
+{
+    font-size: 2.5vw;
+
+    @media (min-width: 1000px) { font-size: 1.5vw; }
 }
 
 body
@@ -41,7 +47,7 @@ body
 #selection //For drop down selectors
 {
     margin: 5px auto auto 5px;
-    font-size: $standard-font-size;
+    @include standard-font-size();
     padding: 2px 3px 2px 3px;
     background-color: cyan;
     color: blue;
@@ -70,7 +76,7 @@ body
     margin-top: 1em;
     padding: 2%;
     border-radius: 10px;
-    font-size: $standard-font-size;
+    @include standard-font-size();
 
     p { margin: 0.5em auto; }
 

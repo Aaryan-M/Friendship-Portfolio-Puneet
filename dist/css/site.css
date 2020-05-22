@@ -30,6 +30,12 @@ body {
   border: 1px solid blue;
 }
 
+@media (min-width: 1000px) {
+  #selection {
+    font-size: 2.5vw;
+  }
+}
+
 /* TITLE */
 #main-title {
   text-align: center;
@@ -53,6 +59,12 @@ body {
   padding: 2%;
   border-radius: 10px;
   font-size: 3.5vw;
+}
+
+@media (min-width: 1000px) {
+  .content-section {
+    font-size: 2.5vw;
+  }
 }
 
 .content-section p {
