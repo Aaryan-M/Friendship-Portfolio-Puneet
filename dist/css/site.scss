@@ -38,7 +38,7 @@ body
 
 .rounded-light { border-radius: 5px; }
 
-#selection
+#selection //For drop down selectors
 {
     margin: 5px auto auto 5px;
     font-size: $standard-font-size;
@@ -54,14 +54,15 @@ body
 {
     text-align: center;
     color: $main-purple;
-    font-size: 3em;
     background-color: cyan;
     border-radius: 10px;
     margin-bottom: 0;
+    font-size: 3em;
+
+    /* Laptops and larger displays */
+    @media (min-width:1000px) { font-size: 5vw; }
 }
 
-/* Laptops, etc. */
-@media (min-width:1000px) { #main-title { font-size: 5vw; } }
 
 
 
