@@ -64,20 +64,20 @@ body {
   text-align: right;
 }
 
-#c-s-style-4 {
+.c-s-style-4 {
   background-color: lime;
   color: blue;
 }
 
-#c-s-style-3 {
+.c-s-style-3 {
   background-color: #ecfd00;
 }
 
-#c-s-style-2 {
+.c-s-style-2 {
   background-color: orange;
 }
 
-#c-s-style-1 {
+.c-s-style-1 {
   background-color: red;
   color: #ecfd00;
 }
