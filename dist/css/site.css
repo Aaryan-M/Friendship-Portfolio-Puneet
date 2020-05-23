@@ -30,6 +30,12 @@ body {
   border: 1px solid blue;
 }
 
+@media (min-width: 1000px) {
+  #selection {
+    font-size: 2.5vw;
+  }
+}
+
 /* TITLE */
 #main-title {
   text-align: center;
@@ -55,6 +61,12 @@ body {
   font-size: 3.5vw;
 }
 
+@media (min-width: 1000px) {
+  .content-section {
+    font-size: 2.5vw;
+  }
+}
+
 .content-section p {
   margin: 0.5em auto;
 }
@@ -64,20 +76,20 @@ body {
   text-align: right;
 }
 
-#cont-sec-4 {
+.c-s-style-4 {
   background-color: lime;
   color: blue;
 }
 
-#cont-sec-3 {
+.c-s-style-3 {
   background-color: #ecfd00;
 }
 
-#cont-sec-2 {
+.c-s-style-2 {
   background-color: orange;
 }
 
-#cont-sec-1 {
+.c-s-style-1 {
   background-color: red;
   color: #ecfd00;
 }
