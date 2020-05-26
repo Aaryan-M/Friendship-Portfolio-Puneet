@@ -70,13 +70,25 @@ body
 
 }
 
+.c-s-style-purple-lime
+{
+    background-color: $main-purple;
+    color: lime;
+}
+
+.c-s-style-blue-yellow
+{
+    background-color: blue;
+    color: $main-yellow;
+}
+
 .c-s-style-lime-blue
 {
     background-color: lime;
     color: blue;
 }
 
-.c-s-style-yellow-black
+.c-s-style-yellow-red
 {
     background-color: $main-yellow;
 }
