@@ -74,36 +74,39 @@ body
 
 }
 
-.c-s-style-purple-lime
+
+// c-s-s stands for content section style
+
+.c-s-s-purple-lime
 {
     background-color: $main-purple;
     color: lime;
 }
 
-.c-s-style-blue-yellow
+.c-s-s-blue-yellow
 {
     background-color: blue;
     color: $main-yellow;
 }
 
-.c-s-style-lime-blue
+.c-s-s-lime-blue
 {
     background-color: lime;
     color: blue;
 }
 
-.c-s-style-yellow-red
+.c-s-s-yellow-red
 {
     background-color: $main-yellow;
 }
 
-.c-s-style-orange-black
+.c-s-s-orange-black
 {
     background-color: orange;
     color: black;
 }
 
-.c-s-style-red-yellow
+.c-s-s-red-yellow
 {
     background-color: red;
     color: $main-yellow;
