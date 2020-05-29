@@ -62,7 +62,9 @@ body
 
     p { margin: 0.5em auto; }
 
-    a { color: inherit; text-decoration: inherit; }
+    a { color: inherit; text-decoration: none; }
+
+    a:hover { text-decoration: underline; }
 
     .post-date
     {
@@ -98,6 +100,7 @@ body
 .c-s-style-orange-black
 {
     background-color: orange;
+    color: black;
 }
 
 .c-s-style-red-yellow
