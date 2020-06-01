@@ -4,7 +4,7 @@ body {
 
 .container {
   width: 87.5%;
-  margin: 10px auto 0 auto;
+  margin: 10px auto 0;
 }
 
 .rounded-heavy {
@@ -33,6 +33,25 @@ body {
 @media (min-width: 1000px) {
   .content-section {
     font-size: 2.5vw;
+  }
+}
+
+.content-section h4 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 4.5vw;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 50%;
+  top: 25%;
+  margin: 0 auto 6px;
+  padding: 7px 10px;
+}
+
+@media (min-width: 1000px) {
+  .content-section h4 {
+    font-size: 3.5vw;
   }
 }
 

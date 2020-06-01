@@ -9,6 +9,12 @@ $main-purple:     #5b40f7;     // Not Standard
 /////////////////////////////////////////////////
 
 // Mixins ---------------------------------------
+@mixin large-font-size {
+    font-size: 4.5vw;
+
+    @media (min-width: 1000px) { font-size: 3.5vw; }
+}
+
 @mixin standard-font-size
 {
     font-size: 3.5vw;
@@ -41,7 +47,7 @@ body
 .container
 {
     width: 87.5%;
-    margin: 10px auto 0 auto;
+    margin: 10px auto 0;
 }
 
 .rounded-heavy { border-radius: 15px; }
@@ -59,6 +65,20 @@ body
     padding: 2%;
     border-radius: 10px;
     @include standard-font-size();
+
+    h4
+    {
+        font-weight: bold;
+        text-decoration: underline;
+        @include large-font-size();
+
+        width: fit-content;
+        height: 50%;
+        top: 25%;
+        
+        margin: 0 auto 6px;
+        padding: 7px 10px;
+    }
 
     p { margin: 0.5em auto; }
 
