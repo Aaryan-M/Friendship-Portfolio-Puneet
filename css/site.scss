@@ -75,41 +75,48 @@ body
 }
 
 
-// c-s-s stands for content section style
+// ct stands for colour theme
 
-.c-s-s-purple-lime
+.ct-lime-purple
 {
-    background-color: $main-purple;
     color: lime;
+    background-color: $main-purple;
 }
 
-.c-s-s-blue-yellow
+.ct-yellow-blue
 {
-    background-color: blue;
     color: $main-yellow;
+    background-color: blue;
 }
 
-.c-s-s-lime-blue
+.ct-blue-lime
 {
-    background-color: lime;
     color: blue;
+    background-color: lime;
 }
 
-.c-s-s-yellow-red
+.ct-red-yellow
 {
+    color: red;
     background-color: $main-yellow;
 }
 
-.c-s-s-orange-black
+.ct-black-orange
 {
-    background-color: orange;
     color: black;
+    background-color: orange;
 }
 
-.c-s-s-red-yellow
+.ct-yellow-red
 {
-    background-color: red;
     color: $main-yellow;
+    background-color: red;
+}
+
+.ct-purple-cyan
+{
+    color: $main-purple;
+    background-color: cyan;
 }
 //////////////////////////////////////////////
 
@@ -130,8 +137,6 @@ body
 #main-title
 {
     text-align: center;
-    color: $main-purple;
-    background-color: cyan;
     border-radius: 10px;
     margin-bottom: 0;
     font-size: 3em;

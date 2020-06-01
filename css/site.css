@@ -54,33 +54,39 @@ body {
   text-align: right;
 }
 
-.c-s-s-purple-lime {
-  background-color: #5b40f7;
+.ct-lime-purple {
   color: lime;
+  background-color: #5b40f7;
 }
 
-.c-s-s-blue-yellow {
-  background-color: blue;
+.ct-yellow-blue {
   color: #ecfd00;
+  background-color: blue;
 }
 
-.c-s-s-lime-blue {
-  background-color: lime;
+.ct-blue-lime {
   color: blue;
+  background-color: lime;
 }
 
-.c-s-s-yellow-red {
+.ct-red-yellow {
+  color: red;
   background-color: #ecfd00;
 }
 
-.c-s-s-orange-black {
-  background-color: orange;
+.ct-black-orange {
   color: black;
+  background-color: orange;
 }
 
-.c-s-s-red-yellow {
-  background-color: red;
+.ct-yellow-red {
   color: #ecfd00;
+  background-color: red;
+}
+
+.ct-purple-cyan {
+  color: #5b40f7;
+  background-color: cyan;
 }
 
 #selection {
@@ -100,8 +106,6 @@ body {
 
 #main-title {
   text-align: center;
-  color: #5b40f7;
-  background-color: cyan;
   border-radius: 10px;
   margin-bottom: 0;
   font-size: 3em;
