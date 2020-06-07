@@ -39,6 +39,7 @@ body {
 .content-section h3, .content-section h4 {
   font-weight: bold;
   text-decoration: underline;
+  text-align: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
