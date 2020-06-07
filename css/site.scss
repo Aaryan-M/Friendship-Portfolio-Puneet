@@ -66,11 +66,10 @@ body
     border-radius: 10px;
     @include standard-font-size();
 
-    h4
+    h3, h4
     {
         font-weight: bold;
         text-decoration: underline;
-        @include large-font-size();
 
         width: fit-content;
         height: 50%;
@@ -79,6 +78,10 @@ body
         margin: 0 auto 6px;
         padding: 7px 10px;
     }
+
+    h3 { @include large-font-size(); }
+
+    h4 { @include standard-font-size(); }
 
     p { margin: 0.5em auto; }
 
@@ -101,6 +104,12 @@ body
 {
     color: lime;
     background-color: $main-purple;
+}
+
+.ct-lime-blue
+{
+    color: lime;
+    background-color: blue;
 }
 
 .ct-yellow-blue

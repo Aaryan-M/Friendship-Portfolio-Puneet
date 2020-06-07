@@ -36,10 +36,9 @@ body {
   }
 }
 
-.content-section h4 {
+.content-section h3, .content-section h4 {
   font-weight: bold;
   text-decoration: underline;
-  font-size: 4.5vw;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -49,9 +48,23 @@ body {
   padding: 7px 10px;
 }
 
+.content-section h3 {
+  font-size: 4.5vw;
+}
+
+@media (min-width: 1000px) {
+  .content-section h3 {
+    font-size: 3.5vw;
+  }
+}
+
+.content-section h4 {
+  font-size: 3.5vw;
+}
+
 @media (min-width: 1000px) {
   .content-section h4 {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
   }
 }
 
@@ -76,6 +89,11 @@ body {
 .ct-lime-purple {
   color: lime;
   background-color: #5b40f7;
+}
+
+.ct-lime-blue {
+  color: lime;
+  background-color: blue;
 }
 
 .ct-yellow-blue {
